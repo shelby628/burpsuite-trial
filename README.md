@@ -88,6 +88,6 @@ Lessons Learned
     Public internet traffic
 - Burp can have issues with:
     VPN networks like TryHackMe’s
-    Lab IPs on private ranges
+    Lab IPs on private range
 - Best practice:
     Be flexible and use other tools when Burp fails.
