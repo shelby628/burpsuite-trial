@@ -1,19 +1,18 @@
-# burpsuite-trial
+ burpsuite-trial
 burpsuite attempt with  a tryhackme lab
 
-=========================================================
+
 DOCUMENTATION — ATTEMPT TO USE BURP SUITE ON TRYHACKME LAB
-=========================================================
 
 Lab Details
------------
+
 - Platform: TryHackMe
 - Lab Type: Web Application
 - Target IP: 10.10.148.104
 - Goal: Practice SQL Injection on login page (Broken Authentication)
 
 Steps Taken to Use Burp
-------------------------
+
 
 1. Installed Burp Suite
 - Installed Burp Suite Community Edition on my machine (Ubuntu).
@@ -67,7 +66,7 @@ Steps Taken to Use Burp
 - No request appeared in Burp.
 
 Conclusion
-----------
+
 - Burp was successfully intercepting general web traffic.
 - However, it could not intercept traffic to TryHackMe’s lab IP (10.10.148.104).
 - Root cause likely:
@@ -75,7 +74,7 @@ Conclusion
     - VPN routes bypass the proxy or block proxy connections.
 
 Next Steps Decided
--------------------
+
 - Skip Burp for this TryHackMe lab.
 - Use:
     - Firefox Dev Tools → Edit and Resend
@@ -83,7 +82,7 @@ Next Steps Decided
 - Plan to try Burp later with local labs like DVWA or Juice Shop.
 
 Lessons Learned
----------------
+
 - Burp works well for:
     Local apps
     Public internet traffic
